@@ -4,6 +4,8 @@ This project is done in regards to completing SC5010 (Introduction to Data Analy
 ## Data Source
 The data was extracted from the following link.
 > https://www.kaggle.com/datasets/sanjeetsinghnaik/top-1000-highest-grossing-movies
+And in the end was also merged with IMDB database.
+> www.imdb.com/interfaces/
 
 ## Objective
 The main objective of this project is to analyse how different factors can affect the movie sales especially on the top 1000 highest grossing Hollywood movies.
