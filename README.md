@@ -31,6 +31,7 @@ To achieve the desired objective, we define several problems such as the followi
 1. Linear Regression
 2. Random Forest Regressor
 3. Gradient Boosting Regressor
+4. Neural Network Classifier
 ### Predictive Models on Distributors, Genre, License
 1. XGBoost Regressor
 2. Random Forest Regressor
@@ -38,15 +39,16 @@ To achieve the desired objective, we define several problems such as the followi
 1. Silhouette Analysis
 
 ## Results
-1. Predictive models on the sales did not perform well on the test set for all of the models, suggesting that the variables inside this dataset might not serve as a good predictor for the movie sales or another more suitable model is required
-2. There are some clear patterns found on some variables, especially seasonal pattern on the release date (quarter and month). Summer and winter releases are generally better compared to spring and autumn.
-3. Clustering generally shows the separation between the high-valued sales and low-valued sales based on the different variables introducted to the model
-4. Predictive models on the distributors and license perform relatively well on Random Forest Regressor
+1. There are some clear patterns found on some variables, especially seasonal pattern on the release date (quarter and month). Summer and winter releases are generally better compared to spring and autumn.
+2. Clustering generally shows the separation between the high-valued sales and low-valued sales based on the different variables introduced to the model
+3. Predictive models using regression algorithms on the sales did not perform well on the test set for all of the models.
+4. Better result was obtained when movie sales was converted into binary variable and predicted using Neural Network.
+4. Predictive models on the distributors and license perform relatively well on Random Forest Regressor.
 
 ## Conclusion
-Despite the limitations of the models, we can roughly predict or suggest how movie sales will perform based on several factors, such as seasonal pattern and distributors.
+Despite the limitations of the models, we can roughly predict or suggest how movie sales will perform based on several factors, such as release date, genre, and distributors.
 
 ## What did we learn from this project?
 1. Data engineering to split the column consists of grouped information
-2. Several new algorithms, such as random forest regressor, gradient boosting regressor, XGBoost regressor, and silhouette analysis
-3. Extracting the results and presenting the recommendation obtained from data analysis
+2. Several new algorithms, such as random forest regressor, gradient boosting regressor, Neural Network, XGBoost regressor, and silhouette analysis
+3. Extracting the insights from the results and presenting the recommendations obtained from data analysis
