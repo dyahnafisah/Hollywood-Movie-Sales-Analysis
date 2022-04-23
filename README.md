@@ -20,9 +20,11 @@ To achieve the desired objective, we define several problems such as the followi
 5. What are some recommendations that can be drawn from the results?
 
 ## Content
-1. Exploratory Data Analysis
-2. Clustering Models
-3. Predictive Models
+[1. Exploratory Data Analysis](https://github.com/dyahnafisah/Hollywood-Movie-Sales-Analysis/blob/54699b949ebc57bfcc8b6c24ffd6a13f38020239/Exploratory%20Data%20Analysis.ipynb)
+
+[2. Clustering Models](https://github.com/dyahnafisah/Hollywood-Movie-Sales-Analysis/blob/54699b949ebc57bfcc8b6c24ffd6a13f38020239/Clustering%20Models.ipynb)
+
+[3. Predictive Models](https://github.com/dyahnafisah/Hollywood-Movie-Sales-Analysis/blob/54699b949ebc57bfcc8b6c24ffd6a13f38020239/Predictive%20Models.ipynb)
 
 ## Contributors
 1. Dyah Ayu Nurun Nafisah - Exploratory Data Analysis, Predictive Models on Movie Sales
@@ -30,6 +32,8 @@ To achieve the desired objective, we define several problems such as the followi
 3. Prabhakaran Nikhita - Clustering using Silhouette Analysis
 
 ## Algorithms Used
+### Clustering
+1. Silhouette Analysis
 ### Predictive Models on Movie Sales
 1. Linear Regression
 2. Random Forest Regressor
@@ -38,8 +42,6 @@ To achieve the desired objective, we define several problems such as the followi
 ### Predictive Models on Distributors, Genre, License
 1. XGBoost Regressor
 2. Random Forest Regressor
-### Clustering
-1. Silhouette Analysis
 
 ## Results
 1. There are some clear patterns found on some variables, especially seasonal pattern on the release date (quarter and month). Summer and winter releases are generally better compared to spring and autumn.
