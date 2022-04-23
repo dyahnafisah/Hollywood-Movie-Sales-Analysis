@@ -20,8 +20,8 @@ To achieve the desired objective, we define several problems such as the followi
 
 ## Content
 1. Exploratory Data Analysis
-2. Model Building
-3. Result and Conclusion
+2. Clustering Models
+3. Predictive Models
 
 ## Contributors
 1. Dyah Ayu Nurun Nafisah - Exploratory Data Analysis, Predictive Models on Movie Sales
